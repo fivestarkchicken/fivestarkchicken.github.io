@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa;
+    }
+header, footer {
+      background-color:green;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+main {
+      padding: 2rem;
+    }
+.responsive-title {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-weight: bold;
+  }
+.responsive-text {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: #6c757d;
+}
